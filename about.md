@@ -12,7 +12,7 @@ I am currently developing an anti malware tool for Android and hopefully it will
 For any info, bugs on the website, new projects or whatever, don't be shy and drop me a line :)
 
 
-I'm really bad at web development and without some open source project I would not be able to make this blog. Thanks to:
+I'm really bad at web development and without some open source projects I would not have been able to develope this blog. Thanks to:
 + [Jekyll](https://jekyllrb.com/) that gives the ability to develope light and fast websites
 + [Hydeout](https://github.com/fongandrew/hydeout) for the UI
 + [Github pages](https://pages.github.com/) for hosting the blog for free
