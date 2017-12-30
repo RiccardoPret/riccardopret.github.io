@@ -12,5 +12,13 @@
   </header>
   {% include sidebar-icon-links.html %}
 
-  {% include sidebar-nav-links.html %}
+  {% assign postsByYearMonth = site.posts | group_by_exp:"post", "post.date | date: '%Y %b'"  %}
+  {% for yearMonth in postsByYearMonth %}
+    <title id="pret_title_archive">{{ yearMonth.name }}</title>
+      <ul id="pret_archive_ul">
+        {% for post in yearMonth.items %}
+          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+      </ul>
+  {% endfor %}
 </div>
